@@ -1,0 +1,31 @@
+.product{
+    width: 800px;
+    display: flex;
+    margin: 30px;
+    border: 10px solid black;
+    border-width: 5px;
+    border-radius: 10px;
+    padding-top:20px ;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+.product img{
+    padding-right: 10px;
+}
+.ratePrice{
+    display: flex;
+
+}
+.rate{
+    margin-right: 30px;
+}
+.desc{
+    border:2px dashed black;
+    margin-right: 10px;
+}
+.rating{
+    font-weight: bold;
+}
+.price{
+    font-weight: bolder;
+}
