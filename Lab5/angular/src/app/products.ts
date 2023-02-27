@@ -8,11 +8,16 @@ export interface Product {
   href:string,
   width:number,
   height:number,
+  categoryId: number,
 }
-
-export const products = [
+categories = [
+  {id:1,
+  title: Telephhone}
+]
+export const products: Product[] = [
   {
     id: 1,
+    categoryId: 1,
     name: 'Apple iPhone 13, 128 gb black',
     price: 357999,
     description: 'технология NFC: Да. Цвет: черный.Тип экрана: OLED, Super Retina XDR. Диагональ: 6.1 дюйм. Размер оперативной памяти: 4 ГБ. Процессор: 6-ядерный Apple A15 Bionic. Объем встроенной памяти: 128 ГБ. Емкость аккумулятора: 3095 мАч',
